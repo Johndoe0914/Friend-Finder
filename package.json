@@ -1,0 +1,22 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Survey ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johndoe0914/Friend-Finder.git"
+  },
+  "author": "Jonathan Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johndoe0914/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/Johndoe0914/Friend-Finder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

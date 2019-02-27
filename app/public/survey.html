@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+        
+	  <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  
+      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+    <style>
+    #margin, h4, p, submit-button,{
+        margin-left: 100px;
+    }
+    </style>
+  
+</head>
+<body>
+    <div class="container">
+        <h2 id="margin">Survey Questions</h2>
+        <hr class="my-4">
+        <h5 id="margin">About You</h5>
+        <form id="margin">
+                <div class="form-group">
+                    <div class="col-xs-4">
+                  <label for="Name">Name (Required)</label>
+                  <input type="text" class="form-control" id="Name" placeholder="Enter Name">
+                  </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="form-group">
+                  <label for="photo">Link to Photo image</label>
+                  <input type="text" class="form-control"  id="image" placeholder="Image url">
+                </div>
+              </form>
+              <hr class="my-4">
+              <h4>Question 1</h4>
+              <p>I like alot of luxury out of life.</p>
+              <select class="chosen-select" id="q1" style="margin-left:100px;">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2 Disagree</option>
+                <option value="3">3 Neutral</option>
+                <option value="4">4 Agree</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <hr class="my-4">
+            <br>
+            <h4>Question 2</h4>
+            <p>I tend to space out during lecture.</p>
+            <select class="chosen-select" id="q2" style="margin-left:100px;">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 Disagree</option>
+              <option value="3">3 Neutral</option>
+              <option value="4">4 Agree</option>
+              <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+          <hr class="my-4">
+            <br>
+            <h4>Question 3</h4>
+            <p>I live a life of if it doesn't affect me it shouldnt matter.</p>
+            <select class="chosen-select" id="q3" style="margin-left:100px;">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 Disagree</option>
+              <option value="3">3 Neutral</option>
+              <option value="4">4 Agree</option>
+              <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+          <hr class="my-4">
+            <br>
+            <h4>Question 4</h4>
+            <p>I enjoy spending money on things that are not practical.</p>
+            <select class="chosen-select" id="q4" style="margin-left:100px;">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 Disagree</option>
+              <option value="3">3 Neutral</option>
+              <option value="4">4 Agree</option>
+              <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+          <hr class="my-4">
+            <br>
+            <h4>Question 5</h4>
+            <p>i tend to be social.</p>
+            <select class="chosen-select" id="q5" style="margin-left:100px;">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 Disagree</option>
+              <option value="3">3 Neutral</option>
+              <option value="4">4 Agree</option>
+              <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+          <hr class="my-4">
+            <br>
+            <h4>Question 6</h4>
+            <p>I usually procrastinate.</p>
+            <select class="chosen-select" id="q6" style="margin-left:100px;">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 Disagree</option>
+              <option value="3">3 Neutral</option>
+              <option value="4">4 Agree</option>
+              <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+          <hr class="my-4">
+            <br>
+            <h4>Question 7</h4>
+            <p>I am a a safe driver.</p>
+            <select class="chosen-select" id="q7" style="margin-left:100px;">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 Disagree</option>
+              <option value="3">3 Neutral</option>
+              <option value="4">4 Agree</option>
+              <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+          <hr class="my-4">
+            <br>
+            <h4>Question 8</h4>
+            <p>I take time out of my day for others.</p>
+            <select class="chosen-select" id="q8" style="margin-left:100px;">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 Disagree</option>
+              <option value="3">3 Neutral</option>
+              <option value="4">4 Agree</option>
+              <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+          <hr class="my-4">
+            <br>
+            <h4>Question 9</h4>
+            <p>Boys are better than girls.</p>
+            <select class="chosen-select" id="q9" style="margin-left:100px;">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 Disagree</option>
+              <option value="3">3 Neutral</option>
+              <option value="4">4 Agree</option>
+              <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <br>
+          <hr class="my-4">
+            <br>
+            <h4>Question 10</h4>
+            <p>Fast food is better than restaurant food.</p>
+            <select class="chosen-select" id="q10" style="margin-left:100px;">
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2 Disagree</option>
+              <option value="3">3 Neutral</option>
+              <option value="4">4 Agree</option>
+              <option value="5">5 (Strongly Agree)</option>
+          </select>
+          <hr class="my-4">
+          <button style="width:200px;" type="button" class="btn btn-primary" id="submit-button">Submit Survey</button>
+            <footer>
+              <p><a href="/api/friends">Api Friends List</a></p>
+            </footer>
+              </div>
+
+
+              
+                          	<!-- Modal -->
+              <div id="resultsModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+            
+                 <button type="submit" id="submit" href="#" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Congrats!</h4>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              <script type= "text/javascript">
+
+          
+                $("#submit-button").on("click", function(){
+                  
+                  var newFriend ={
+                    name: $("#Name").val().trim(),
+                    photo: $("#image").val().trim(),
+                    scores:[
+                       $("#q1").val(),
+                       $("#q2").val(),
+                       $("#q3").val(),
+                       $("#q4").val(),
+                       $("#q5").val(),
+                       $("#q6").val(),
+                       $("#q7").val(),
+                       $("#q8").val(),
+                       $("#q9").val(),
+                       $("#q10").val()
+                  ]
+                  };
+                  console.log(newFriend);
+                  var currentURL = window.location.origin;
+                  $.post("/api/friends", newFriend, function(data){
+                    console.log(data)
+                    
+                    
+                  })
+                  .done(function(data){
+                    
+                    $(".modal-body").append("<h1> New Friend Found! </h1>" + '<h3> ' + data.name + '</h3>' + 'img src="' + data.photo + '" width=300px>')
+                    $("#myModal").modal("toggle");
+                    
+                  });
+
+                  
+                  
+
+                })
+            
+              </script>
+    
+</body>
+</html>
